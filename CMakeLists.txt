@@ -3,4 +3,4 @@ project(JavaInterpreter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(JavaInterpreter main.cpp)
+add_executable(JavaInterpreter Parser.cpp Parser.h)
